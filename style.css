@@ -12,6 +12,7 @@ body{
     height: 90px;
     width: 100px;
     border-radius: 50%;
+    box-shadow: 0 0 3em red;
 }
 .nevlist{
     display: inline;
@@ -27,8 +28,12 @@ body{
     font-size:25px;
     cursor: pointer;
 }
-.heading{
+.heading,.ourwork_heading{
     font-family: cursive;
+    text-align: center;
+    font-size: 50px;
+    margin-top:10px ;
+    font-weight: bolder;
 }
 .middle{
     display: flex;
@@ -53,4 +58,16 @@ body{
 }
 .webdev:hover,.appdev:hover,.cybersecurity:hover{
    transform: scale(85%);
+}
+.ourwork{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px 10px;
+}
+.workimage{
+    border: 2px wheat solid;
+    height: 200px;
+    width: 350px;
 }
